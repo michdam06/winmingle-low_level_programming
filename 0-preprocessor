@@ -1,0 +1,7 @@
+#!/bin/bash
+ # Author: Ajibade Damilare M
+ # Program: WinMingle Community C Training
+ # Description: Write a script that runs a C file through the preprocessor and saves the result into another file
+gcc -E "$CFILE" -o c
+
+

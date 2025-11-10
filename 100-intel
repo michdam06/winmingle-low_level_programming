@@ -1,0 +1,7 @@
+# Author: Ajibade Damilare M
+# Program: WinMingle Community C Training
+# Description: # A script that generates the assembly code (Intel syntax) of a C code file
+# Compile the C file into assembly code using GCC with Intel syntax.
+# $CFILE is an environment variable containing the name of the C source file
+#1/bin/bash
+gcc -S -masm=intel "$CFILE" -o "${CFILE%.c}.s"

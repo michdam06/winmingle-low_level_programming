@@ -1,0 +1,5 @@
+# Author: Ajibade Damilare M  
+# Program: WinMingle Community C Training
+# Description : Write a script that compiles a C file but does not link
+#!/bin/bash
+gcc -c "$CFILE" -o "${CFILE%.c}.o"
